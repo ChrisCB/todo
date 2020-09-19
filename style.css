@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+    /* 1 */
+    line-height: 1.15;
+    /* 2 */
+    -ms-text-size-adjust: 100%;
+    /* 3 */
+    -webkit-text-size-adjust: 100%;
+    /* 3 */ 
+    font-size: 18px;
+}
+
+#title {
+    color: #D16200;
+    font-size: 30px;
+}
+
+#task {
+    font-size: 18px;
+}
+
+.toDoItem{
+    padding: 10px;
+    margin: 5px;
+    border: grey 1px solid;
+}
+
+.done{
+    margin-left: 10px;
+}
+
+.formButton {
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: #109e69;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    overflow: visible;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+.taskDone {
+    text-decoration: line-through;
+    background-color: #D9D9D9;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+  }
